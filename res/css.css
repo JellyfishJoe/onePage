@@ -1,0 +1,41 @@
+#tab-nav{
+	margin: 0;
+	padding: 3px 0;
+	width: 100%;
+	outline-style: none;
+}
+
+#tab-nav li{
+	display: block;
+	float: left;
+	background-color: #ccc;
+	border: 1px solid black;
+	border-bottom: 0;
+	margin-right: 2px;
+	padding: 3px;
+	width: 96px;
+}
+
+#tab-nav li a{
+	text-decoration: none;
+}
+
+#tab-nav li a:hover{
+	color: #d15600;
+}
+
+#tab-nav li.current{
+	background-color: #fff;
+	padding-bottom: 3px;
+}
+
+#tab-content{
+	clear: left;
+	width: 400px;
+	/*border: 1px solid black;*/
+	padding: 0 10px;
+}
+
+#tab-content:after{
+
+}
